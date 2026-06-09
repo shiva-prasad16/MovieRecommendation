@@ -4,7 +4,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("🎬 Movie Semantic Search")
+st.title("🎬 Movie Recommendation")
 
 movies = [
     "The Dark Knight is an action-crime thriller",
